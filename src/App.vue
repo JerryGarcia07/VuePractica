@@ -1,5 +1,6 @@
 <script setup>
 import ComponenetePropValidacion from './components/componenetePropValidacion.vue'
+import ComponenteEvento from './components/componenteEvento.vue'
 import ComponenteProp from './components/componenteProp.vue'
 import ComponentesEstados from './components/componentesEstados.vue'
 import HelloWork from './components/helloWork.vue'
@@ -26,6 +27,9 @@ import HelloWork from './components/helloWork.vue'
   <hr />
   <h2>esto es una estado</h2>
   <ComponentesEstados></ComponentesEstados>
+  <hr />
+  <h2>Eventos</h2>
+  <ComponenteEvento></ComponenteEvento>
 </template>
 
 <style scoped></style>
