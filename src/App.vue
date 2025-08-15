@@ -1,6 +1,7 @@
 <script setup>
 import ComponenetePropValidacion from './components/componenetePropValidacion.vue'
 import ComponenteEvento from './components/componenteEvento.vue'
+import ComponenteModel from './components/componenteModel.vue'
 import ComponenteProp from './components/componenteProp.vue'
 import ComponentesEstados from './components/componentesEstados.vue'
 import HelloWork from './components/helloWork.vue'
@@ -30,6 +31,9 @@ import HelloWork from './components/helloWork.vue'
   <hr />
   <h2>Eventos</h2>
   <ComponenteEvento></ComponenteEvento>
+  <hr />
+  <h2>Es V-model</h2>
+  <ComponenteModel></ComponenteModel>
 </template>
 
 <style scoped></style>
