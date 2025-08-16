@@ -12,12 +12,16 @@
     </select>
     <p>sleccionaste : {{ selecionando }}</p>
   </div>
-  <div></div>
+  <div>
+    <input type="checkbox" v-model="check" />
+    <span>Acepto los termino y condiciones</span>
+  </div>
 </template>
 <script setup>
 import { ref } from 'vue'
 
 let texto = ref('NOMBRE')
 const selecionando = ref('selecciona')
+const check = ref(false)
 </script>
 <style scoped></style>
