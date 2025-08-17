@@ -8,7 +8,7 @@ const actualizarValor = (e) => {
   emit('update:modelValue', e.target.value)
 }
 
-const number = reactive(['one', 'two'])
+const numer = reactive(['', ''])
 </script>
 
 <template>
@@ -18,8 +18,12 @@ const number = reactive(['one', 'two'])
   </div>
   <div>
     <h2>Movel multiples</h2>
-    <input type="text" name="Nombre" />
-    <input type="text" name="edad" />
+    <input type="text" :value="numer[0]" @input="numer[0] = $event.target.value" />
+    <input type="text" :value="numer[1]" @input="numer[1] = $event.target.value" />
+  </div>
+  <div>
+    <p>Numer1: {{ numer[0] }}</p>
+    <p>Numer2: {{ numer[1] }}</p>
   </div>
 </template>
 <style scoped></style>
