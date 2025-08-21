@@ -7,6 +7,8 @@ import ComponenteProp from './components/componenteProp.vue'
 import ComponentesEstados from './components/componentesEstados.vue'
 import HelloWork from './components/helloWork.vue'
 import ComponeneteModelHijo from './components/componeneteModelHijo.vue'
+import ComponenteIntercopilation from './components/componenteIntercopilation.vue'
+import ComponenteCondiciconal from './components/componenteCondiciconal.vue'
 
 const NombreUser = ref('')
 </script>
@@ -41,6 +43,10 @@ const NombreUser = ref('')
   <h2>componente v-model</h2>
   <h4>Mi Nombre es {{ NombreUser }}</h4>
   <ComponeneteModelHijo v-model="NombreUser"></ComponeneteModelHijo>
+  <hr />
+  <ComponenteIntercopilation></ComponenteIntercopilation>
+  <hr />
+  <ComponenteCondiciconal></ComponenteCondiciconal>
 </template>
 
 <style scoped></style>
