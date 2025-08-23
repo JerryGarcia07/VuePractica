@@ -6,6 +6,11 @@
       <button @click="changeVisible">alterar</button>
       <p v-show="visible">Hola soy visible con v*show</p>
     </div>
+    <div>
+      <h3>v-if, v-else y v-else-if</h3>
+      <p v-if="visible">Esto es condicional if</p>
+      <p v-else>esto es else if</p>
+    </div>
   </div>
 </template>
 <script setup>
