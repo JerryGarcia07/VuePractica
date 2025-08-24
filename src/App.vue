@@ -9,6 +9,7 @@ import HelloWork from './components/helloWork.vue'
 import ComponeneteModelHijo from './components/componeneteModelHijo.vue'
 import ComponenteIntercopilation from './components/componenteIntercopilation.vue'
 import ComponenteCondiciconal from './components/componenteCondiciconal.vue'
+import ComponeneteBlingTemplate from './components/componeneteBlingTemplate.vue'
 
 const NombreUser = ref('')
 </script>
@@ -47,6 +48,8 @@ const NombreUser = ref('')
   <ComponenteIntercopilation></ComponenteIntercopilation>
   <hr />
   <ComponenteCondiciconal></ComponenteCondiciconal>
+  <hr />
+  <ComponeneteBlingTemplate></ComponeneteBlingTemplate>
 </template>
 
 <style scoped></style>
