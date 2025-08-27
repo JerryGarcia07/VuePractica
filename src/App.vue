@@ -10,6 +10,7 @@ import ComponeneteModelHijo from './components/componeneteModelHijo.vue'
 import ComponenteIntercopilation from './components/componenteIntercopilation.vue'
 import ComponenteCondiciconal from './components/componenteCondiciconal.vue'
 import ComponeneteBlingTemplate from './components/componeneteBlingTemplate.vue'
+import ComponeteSlot from './components/componeteSlot.vue'
 
 const NombreUser = ref('')
 </script>
@@ -50,6 +51,11 @@ const NombreUser = ref('')
   <ComponenteCondiciconal></ComponenteCondiciconal>
   <hr />
   <ComponeneteBlingTemplate></ComponeneteBlingTemplate>
+  <hr />
+  <ComponeteSlot>
+    <h2>esto es el padre</h2>
+    <p>esto dentro del slop</p>
+  </ComponeteSlot>
 </template>
 
 <style scoped></style>
