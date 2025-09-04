@@ -11,6 +11,7 @@ import ComponenteIntercopilation from './components/componenteIntercopilation.vu
 import ComponenteCondiciconal from './components/componenteCondiciconal.vue'
 import ComponeneteBlingTemplate from './components/componeneteBlingTemplate.vue'
 import ComponeteSlot from './components/componeteSlot.vue'
+import ComponenteCloak from './components/componenteCloak.vue'
 
 const NombreUser = ref('')
 </script>
@@ -56,6 +57,8 @@ const NombreUser = ref('')
     <h2>esto es el padre</h2>
     <p>esto dentro del slop</p>
   </ComponeteSlot>
+  <hr />
+  <ComponenteCloak></ComponenteCloak>
 </template>
 
 <style scoped></style>
